@@ -1,6 +1,8 @@
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser');
+const campsiteRouter = require('./routes/campsiteRouter');
+
 
 const hostname = 'localhost';
 const port = 3000;
